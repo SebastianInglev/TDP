@@ -1,0 +1,389 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page Vestas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!-- Body element -->
+    <body>
+    
+       
+        <nav id="navbar">
+    <!-- Header element -->
+        <header>
+          <h1 class="h1nav">
+        What is coding?
+        </h1>
+        </header>
+          <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            
+            <li><a class="nav-link" href="#Different_types_of_coding">Different types of coding</a></li>
+
+            <li><a class="nav-link" href="#What_can_coding_be_used_for?">What can coding be used for?</a></li>
+
+            <li><a class="nav-link" href="#Write_your_first_HTML">Write your first HTML</a></li>
+
+            <li><a class="nav-link" href="#Next_step">Next step</a></li>
+          </ul>
+          
+          </nav>
+        </h1>
+     
+      
+      
+      
+      
+      <!-- Resten af siden og selve "sectionerne"-->
+      <main id="main-doc">
+
+ <!-- Introduction to coding -->       
+        <section id="Introduction" class="main-section">
+
+<header id="Introduction">Introduction
+</header>
+         
+<p>Coding is the process of transforming ideas, solutions, and instructions into the language that the computer can understand – that is, binary-machine code.
+</p>
+
+<p>Coding is how humans are able to talk with computers.
+</p>
+
+<p>Coding involves communicating and giving instructions for different actions we want our computers to perform using a computer programming language.
+</p>
+
+  </section>
+  
+<!-- different types of coding -->
+        <section id="Different_types_of_coding" class="main-section">
+<header id="Different_types_of_coding">Different types of coding</header>
+
+          
+<p>Programming languages, like JavaSctipt, Java, C/C++, or Python, act as the translator between humans and machines. 
+</p>
+
+<p>These languages bridge the communication gap between computers and humans by representing, expressing, and putting algorithms into practice. They do this using a specific sequence of statements that machines understand and can follow.
+</p>
+
+<p>Programming languages are similar to human languages in the sense that they are made up of basic syntactical elements like nouns, verbs, and phrases. And you group these elements together to form something that resembles a sentence to create meaning.</p>
+
+<p>These languages actually resemble and look a lot like English. But they offer a shorter, more precise and less verbose way to create instructions that the computer can understand.
+</p>
+
+<p>A spoken/natural language like English, on the other hand, leaves a lot of room for ambiguity and different interpretations from different people.
+</p>
+
+<p>Programming languages are a set of rules that define how you write computer code.  
+</p>
+
+<p>We use computer code to create all the web applications, websites, games, operating systems, and all the other software programs and technologies we use on a daily basis.</p>
+  
+  </section>
+
+
+<!-- what can coding be used for? -->
+        <section id="What_can_coding_be_used_for?" class="main-section">
+
+          <header id="What_can_coding_be_used_for?">What can coding be used for?</header>
+
+          
+<p>In the world of coding, there's alot of different languages, that can be used for a lot of different thing. Some languages are easier to learn than others.</p>
+
+<p id="list-caption"> class="indent">Here's a short list of the most beginner-friendly programming/coding languages, and what they're used for:
+            <ul id="list-indent">
+
+              <li class="list"><span class="bold">JavaScript: </span>web development, game development, and coding mobile apps and web servers.</li>
+
+              <li class="list"><span class="bold">HTML/CSS: </span>website development and maintenance: HTML is used to structure webpages, and CSS is used in website design.
+              </li>
+
+              <li class="list"><span class="bold">SQL (Structured Query Language): </span>access and manipulate databases.</li>
+
+              <li class="list"><span class="bold">Python: </span>used in back-end development, data science, web development, and app development.</li>
+
+              <li class="list"><span class="bold">Java: </span>is popular among coders working in e-commerce, finance, and app development, prized for its security and ability to handle large amounts of data.</li>
+
+            <ul>
+          </p>
+          
+  </section>
+  
+
+<!-- Write your first line of coding -->
+        <section id="Write_your_first_HTML" class="main-section">
+    <header id="Write_your_first_HTML">Write your first HTML</header>
+
+          
+          <p>Now you've got a little introduction to what coding is, and how it works. Now, its time to test out coding for your self, and get a little feeling of what writing code is.</p>
+          
+          <p>In the next section, there will be a classic introduction to the language: "HTML/CSS"</p>
+
+            <p class="note"><span class="bold">Note: </span>There is place a space between every "<" and the "text" this should not be done while you want the code to work</p>
+
+<p class="bold"> This is the basic setup for a HTML document:</p>
+      
+      <!-- Code input 1 -->      
+    <pre class="code">
+      <code>
+        < !DOCTYPE html>
+        < html>
+
+          < head>
+            < /head>
+
+            < body>
+              < /body>
+
+          < /html>
+       </code>
+    </pre>
+           <p class="bold">Now its time to add the first element, to our coding.
+             </p>   
+
+<p class="bold">This will be us setting in a basic "header" in the document. This is done within the body element:</p>
+
+<!-- Code input 2 -->
+     <pre class="code">
+      <code>
+        < body>
+
+           < h1>
+            < /h1>
+
+          < /body>
+       </code>
+     </pre>
+
+                 <p class="bold">Now its time to put some actual text in the header: </p>
+
+<!-- Code input 3 -->
+      <pre class="code">
+      <code>
+         < body>
+         
+            < h1>
+            THIS WILL BE YOUR HEADER :D
+              < /h1>
+
+           < /body>
+        </code>
+      </pre>
+
+<p class="bold">Next, lets add a paragraph under the header:</p>
+
+<!-- Code input 4 -->
+     <pre class="code">
+     <code>
+         < body>
+            < h1>
+            THIS WILL BE YOUR HEADER :D
+              < /h1>
+
+              < p>
+                < /p>
+
+           < /body>
+        </code>
+      </pre>
+
+      <p class="bold">Now its time to add some text to the paragraph:</p>:
+
+<!-- Code input 5 -->
+     <pre class="code">
+     <code>
+         < body>
+            < h1>
+            THIS WILL BE YOUR HEADER :D
+              < /h1>
+
+              < p>
+              HEY! Look at you! You've now made your first coding! :D GOOD JOB ;)
+                < /p>
+
+           < /body>
+        </code>
+      </pre>      
+
+<p class="bold"> Cool, now you've done your first coding, and this is what the output should look like:</p>
+<p class="note note2 bold">"Your header element will normally be bold"</p>
+
+<h3 class="indent">THIS WILL BE YOUR HEADER :D</h3>
+
+<p class="indent">HEY! Look at you! You've now made your first coding! :D GOOD JOB ;)</p>
+
+<p class="cool-p bold">Cool, now its time for you to go ahead and learn some more coding. Visit the next part of the page to learn where to go! - happy coding.</p>
+
+
+          </section>
+       
+        
+
+
+<!-- next steps -->
+        <section id="Next_step" class="main-section">
+          <header id="Next_step">Next step</header>
+
+          
+          <p>Here in the last section of the page, i'll leave a list.</p>
+          <p>On that list you can find inspiration on where to go, when you want to gain further information and continue your coding career:</p>
+
+<p class="note">All the elements on the list is links. Go ahead a click them for a shortcut.</p>
+
+<ul id="list-indent">
+
+  <li class="list"><a class="hover-links" href="freeCodeCamp.com">freeCodeCamp</a>
+  </li>
+
+  <li class="list"><a class="hover-links" href="youtube.com">YouTube</a></li>
+
+  <li class="list"><a class="hover-links" href="https://www.theodinproject.com/">The Odin Projekt</a></li>
+
+  <li class="list"><a class="hover-links" href="google.com">Google ;)</a></li>
+  
+
+          </section>
+
+  
+
+        </main>
+      </body>
+    </html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body:not(.h1nav) {
+  margin: 25px;
+  background-color: #E9EBF8;
+}
+
+/* placering af text til venstre for nav bar */
+
+p, h2, header, h3, .code{
+  padding-left: 240px;
+}
+
+
+/* Nav bar */
+
+nav{
+  height: 100%;
+  max-width: 220px;
+  max-height: 500px;
+  position: fixed;
+  padding-top: 60px;
+  top: 0;
+  left: 7px;
+}
+
+nav > ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: left;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  
+}
+
+nav > ul > li{
+  border: 1px solid black;
+  display: block;
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* H1 i venstre hjørn er fixed */
+h1{
+  position: fixed;
+  left: 10px;
+  top: 28px;
+  font-size: 28px;
+  padding-left: 5px;
+}
+
+/* note slut */
+
+#list-indent{
+  padding-left: 290px;
+}
+
+#list-caption{
+  width: 400px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.list{
+  padding: 3px;
+}
+
+.indent{
+  padding-left: 260px;
+}
+
+.note{
+  font-style: italic
+}
+
+header, h2{
+  padding-top: 40px;
+}
+
+h3{
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.note2{
+  font-size: 14px;
+}
+
+.cool-p{
+  padding-top: 30px;
+}
+
+.hover-links:hover{
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+header{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+** end of undefined **
+
